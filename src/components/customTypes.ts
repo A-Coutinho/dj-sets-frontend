@@ -1,3 +1,8 @@
+export type DropboxFileResponse = {
+  timestamp: number
+  cover: string
+  files: DropboxFile[]
+}
 export type DropboxFile = {
     name: string;
     path_lower: string;

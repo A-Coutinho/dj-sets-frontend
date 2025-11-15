@@ -69,6 +69,7 @@ function App() {
     if (!files.length)
         return (
             <Container>
+                {JSON.stringify(files)}
                 <InfoDisplay textToDisplay="No files found"></InfoDisplay>
             </Container>
         );
