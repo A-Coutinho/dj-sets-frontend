@@ -1,6 +1,6 @@
 import type { DropboxFile, DropboxFileResponse } from "./customTypes";
 
-const BASE_URL = "https://api.antoniocoutinho.pt/sets";
+const BASE_URL = "https://api.antoniocoutinho.pt/djsets";
 
 export async function fetchFiles(): Promise<DropboxFile[]> {
     const res = await fetch(`${BASE_URL}/files`);
